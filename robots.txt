@@ -1,1 +1,1 @@
-Sitemap: https://polmaxfm.ga/sitemap.xml
+Sitemap: https://polmaxfm.github.io/sitemap.xml
