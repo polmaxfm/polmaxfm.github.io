@@ -1,0 +1,107 @@
+﻿<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Radio Polo .net</title>
+<meta name="description" content="Radio Polo .net" />
+<meta name="keywords" content="radio muzyka disco discopolo" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="images/giphy.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="style1.css" rel="stylesheet" type="text/css"/>
+
+
+</head>
+<body>
+
+<img src="images/mixer.jpg" style="position:fixed; left:0; right:0; top:0; bottom:0; width:100vw; height:100vh; z-index:-1;">
+<center>
+
+
+  <!-- placeholder for menu -->
+  <div id="menuContainer"></div>
+
+  <!-- load menu with AJAX -->
+  <script>
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'menu.html', true);
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+        document.getElementById('menuContainer').innerHTML = xhr.responseText;
+      }
+    };
+    xhr.send();
+  </script>
+
+<!--  menu tu koniec -->
+
+
+
+
+
+
+
+
+
+
+<div class="panel12">
+
+
+<center><font size="5" color="lime">
+
+
+<br><div class="panel10"><p>
+Radio Polo .net</p></div>
+<br>
+<br>
+
+
+
+
+<audio controls autoplay>
+<source src="http://radiopolo.net:8000/;stream.mp3" type="audio/mpeg"></audio>
+ 
+ 
+ <br>
+ <br>
+ słuchaj w swoim odtwarzaczu skopiuj link
+<br>
+
+<br><a href="http://www.radiopolo.net/play.m3u"><img src="images/winamp.png" width="150" height="150">
+
+<br><font color="white">
+http://www.radiopolo.net/play.m3u</font></a>
+
+ 
+ 
+ 
+ 
+ 
+<br>
+<br>
+<br>
+<br>
+ Kanał Muzyka i Hity
+<br>
+<br>
+<audio controls><source src="http://radiopolo.net:9000/;stream.mp3" type="audio/mpeg"></audio>
+
+
+
+<br>
+<br>
+<br>
+<br>
+     
+<img src="images/niebo1.jpg" width="70%">
+<br>
+<br>
+<br>
+
+
+</font>
+</center>
+
+
+</div>
+</body>
+</html>

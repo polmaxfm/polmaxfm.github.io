@@ -1,0 +1,214 @@
+﻿<html>   
+<head>
+
+
+
+<style>
+
+
+
+      /* -----------------CZĘŚĆ-GÓRNA-MENU--------------- */
+
+      /* wygląd głównego elementu - ol */
+      ol {
+        list-style-type:none;
+        padding:0;
+        margin:3;
+        background-color:black;
+        font-size:24px;
+        height:2em;
+        line-height:        
+        height:2em;
+        line-height:2em;
+        text-align:center;
+        position: fixed;
+        top: 0;
+        display: block;
+        width:100%;
+        transition: top 0.3s;
+            border-radius: 12px;
+     }
+
+      /* wygląd wszystkich elementów - a - znajdujących się w elemencie - ol */
+      ol a {
+        display:block;
+        text-decoration:none;
+        color:white;
+        padding:0 5px;
+        top: 0;
+        display: block;
+      }
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol */
+      ol > li {
+        float:left;
+        margin-left:3px;
+        background-color:#333;
+        width:150px;
+        height:2em;
+        top: 0;
+        display: block;
+            border-radius: 12px;
+      }
+
+      /* wygląd elementu - li - pierwszego dziecka elementu - ol */
+      ol > li:first-child {
+        margin-left:0;
+      }
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol > li:hover {
+        background-color:red;
+      }
+
+      /* wygląd elementu - a - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol > li:hover > a {
+        color:yellow;
+      }
+
+      /* wygląd elementu - ul - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol > li:hover > ul {
+        display:block;
+      }
+
+      /* ------------------------CZĘŚĆ-ROZWIJANA-MENU------------------------ */
+
+      /* wygląd głównych rozwijanych elementów - ul */
+      ol > li > ul {
+        display:none;
+        list-style-type:none;
+        padding:0;
+        margin:0;
+            border-radius: 12px;
+      }
+
+      /* wygląd elementu - li - w części rozwijanej */
+      ol > li > ul > li {
+        position:relative;
+        background-color:blue;
+            border-radius: 12px;
+      }
+
+      /* wygląd elementu - a - w części rozwijanej */
+      ol > li > ul > li > a {
+        border-top:1px solid #FFF;
+      }
+
+      /* wygląd elementu - li - w części rozwijanej, po najechaniu kursorem myszki na dany element - li */
+      ol > li > ul > li:hover {
+        background-color:yellow;
+      }
+
+      /* wygląd elementu - a - w części rozwijanej, po najechaniu kursorem myszki na element - li */
+      ol > li > ul > li:hover > a {
+        color:red;
+      }
+
+
+    </style>
+
+
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <ol>
+
+      <li><a href="index.html" class="active">HOME</a></li>
+      <li><a href="index.html">POLMAX</a></li>
+      <li><a href="polmax2.html">Polmax2</a></li>
+      <li><a href="polmax3.html">Polmax3</a></li>
+      <li><a href="misiek.html">Misiek</a></li>
+      <li><a href="aniolek.html">Aniołek</a></li>
+      <li><a href="zabawa.html">Zabawa</a></li>
+      <li><a href="polmax4.html">Polmax4</a></li>
+      <li><a href="polmax5.html">Polmax5</a></li>
+
+
+      <li><a href="#">stacje</a>
+        <ul>
+      <li><a href="polmax3.html">Polmax3</a></li>
+      <li><a href="polmax4.html">Polmax4</a></li>
+      <li><a href="polmax5.html">Polmax5</a></li>
+      <li><a href="radyjko6.html">Radyjko6</a></li>
+      <li><a href="polmax-koledy.html">Polmax Kolędy</a></li>      
+      <li><a href="ftb.html">FTB</a></li>
+      <li><a href="discoparty.html">Discoparty</a></li>
+      <li><a href="discoradio.html">Disco Radio</a></li>
+      <li><a href="voxfm.html">VOX FM</a></li>
+      <li><a href="technobase.html">Technobase</a></li>
+      <li><a href="https://radioparty.pl" target="_blank">Radio Party</a></li>
+      <li><a href="slaskie.html">Śląskie Radio</a></li>
+      <li><a href="http://radioslask.pl/webplayer" target="_blank">Radio Śląsk</a></li>
+      <li><a href="radiopolo.html">Radio Polo .net</a></li>
+      <li><a href="raute.html">Raute Musik FM</a></li>
+      <li><a href="folk.html">Folk Radio</a></li>
+      <li><a href="https://radioheaven.pl/" target="_blank">Radio Heaven</a></li>
+      <li><a href="http://www.radioryn.pl" target="_blank" target="_blank">Radio Ryn</a></li>
+      <li><a href="http://proxima.shoutca.st:9045/stream" target="_blank">Radio Alex Zakopane</a></li>
+      <li><a href="https://radioalex.com.pl/play/index.php?02" target="_blank">Nowe Radio Alex</a></li>
+      <li><a href="https://stream12.hosterion.pl/public/discopolo" target="_blank">Discostrefafm - Disco polo</a></li>
+      <li><a href="https://stream12.hosterion.pl/public/club" target="_blank">Discostrefafm - Club</a></li>
+      <li><a href="http://discopolononstop.pl.nadaje.pro" target="_blank">Disco polo non stop FM</a></li>
+      <li><a href="http://radio-lenka.de" target="_blank">Radio Lenka</a></li>
+      <li><a href="http://www.radiohit.net.pl/radio/" target="_blank">HIT Włocławek</a></li>
+      <li><a href="https://zeno.fm/radio/radio-for-everyone" target="_blank">Nauka Angielskiego</a></li>
+        </ul>
+      </li>
+
+      <li><a href="#">services</a>
+        <ul>
+      <li><a href="lista-radiowa.m3u" download>Lista Radiowa .m3u</a></li>
+      <li><a href="http://radiopolmaxfm.ga">WebPlayer Stacje</a></li>
+      <li><a href="http://polmax.ga/wimpy/stacje-radiowe.html">Stacje Radiowe</a></li>
+      <li><a href="Radio_Polmax_FM.apk" title="Aplikacja Radio Polmax FM na Android" download>Aplikacja Polmax [Android]</a></li>
+      <li><a href="https://www.google.pl">Google</a></li>
+        </ul>
+      </li>
+
+
+      <li><a href="#">P</a>
+        <ul>
+      <li><a href="http://radiopolmaxfm.ga" >WebPlayer stacji radiowych</a></li>
+      <li><a href="http://polmaxfm.ga/webplayer.html" rel="noopener">web</a></li>
+      <li><a href="#link3">Link 3</a></li>
+      <li><a href="#link4">Link 4</a></li>
+        </ul>
+      </li>
+
+      <li><a href="#">M</a>
+        <ul>
+      <li><a href="webplayer1.html">Webplayer</a></li>
+      <li><a href="#link2">Link 2</a></li>
+      <li><a href="#link3">Link 3</a></li>
+      <li><a href="#link4">Link 4</a></li>
+      <li><a href="#link4">Link 4</a></li>
+      <li><a href="#link4">Link 4</a></li>
+      <li><a href="#link1">test1</a></li>
+      <li><a href="#link2">Link 2</a></li>
+      <li><a href="#link3">Link 3</a></li>
+      <li><a href="#link4">Link 4</a></li>
+      <li><a href="#link4">Link 4</a></li>
+      <li><a href="#link4">Link 4</a></li>
+        </ul>
+      </li>
+
+      <li><a href="webplayer1.html" title="Odtwarzacz Web Player stacji Radiowych">W</a></li>
+
+
+    </ol>
+
+</body>
+</html>

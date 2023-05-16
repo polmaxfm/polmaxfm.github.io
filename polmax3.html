@@ -1,0 +1,135 @@
+﻿<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Polmax 3</title>
+<meta name="description" content="Polmax 3" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="keywords" content="radio muzyka transmisja" />
+<link href="images/giphy.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="style1.css" rel="stylesheet" type="text/css"/>
+
+
+</head>
+<body>
+
+
+<img src="images/wulkan1.jpg" style="position:fixed; left:0; right:0; top:0; bottom:0; width:100vw; height:100vh; z-index:-1;">
+<center>
+
+
+
+  <!-- placeholder for menu -->
+  <div id="menuContainer"></div>
+
+  <!-- load menu with AJAX -->
+  <script>
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'menu.html', true);
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+        document.getElementById('menuContainer').innerHTML = xhr.responseText;
+      }
+    };
+    xhr.send();
+  </script>
+
+<!--  menu tu koniec -->
+  
+  
+
+
+
+<div class="panel12">
+
+<center><font size="6" color="lime">
+
+
+<br><div class="panel10"><p><b>
+Polmax 3</b></p></div>
+<br>
+<br>
+<img src="images/bumbox1.png" width="300">
+<br>
+<br>
+<br>
+
+
+<script src="floplayer.js"></script>
+<script id="radioFloPlayer">
+radioFloPlayer.embed({
+'url': 'https://stream.zeno.fm/2p4yw9sd8yzuv',
+'station-name': 'Polmax 3',
+'autoplay': true,
+'skin': 'windows-dark',
+'width': 300
+});
+</script>
+<br>
+<br>
+<!-- <audio controls autoplay>
+<source src="https://stream.zeno.fm/2p4yw9sd8yzuv" type="audio/mpeg"></source>
+</audio> -->
+
+<br>
+<br>
+
+<div class="panel11"><p>
+<br>
+słuchaj w winampie
+<br>
+albo w swoim odtwarzaczu
+<br>
+<br><a href="http://stream.zeno.fm/2p4yw9sd8yzuv"><img src="images/winamp.png" width="150" height="150">
+<br><font color="white">http://stream.zeno.fm/2p4yw9sd8yzuv</font></a>
+<br>
+<br>
+<br>
+  
+<a href="http://stream.zeno.fm/cfmarhght68uv"><font color="white">http://stream.zeno.fm/cfmarhght68uv</font></a>
+<br>
+Drugi link <br>
+<br>
+<br>
+</p></div>
+<br>
+
+
+  
+
+
+
+<img src="images/64.gif">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<img src="images/djpies3.jpg" width="60%">
+<br>
+<br>
+<br>
+<br>  
+<img src="images/piesikot.jpg" width="70%">
+<br>
+<br>
+<br><div class="panel10"><p><b>
+Polmax 3</b></p></div>
+<br>
+<br>
+<br>
+<br>
+</font>
+</center>
+
+
+  
+  
+
+
+
+
+</div>
+</body>
+</html>

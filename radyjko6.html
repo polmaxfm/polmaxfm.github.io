@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Radyjko6</title>
+<meta name="description" content="Radyjko6" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="radio muzyka transmisja" />
+<link href="images/giphy.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="style1.css" rel="stylesheet" type="text/css"/>
+
+
+
+
+
+   <style>
+      div.panel12{
+        background-image: url("images/pexels.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position:fixed; left:0; right:0; top:0; bottom:0;
+        background-size: cover;
+        overflow: auto;
+        width:100vw;
+        height:100vh;
+      }
+    </style>
+
+
+
+
+
+
+</head>
+<body>
+
+
+
+
+<center><div class="panel12">
+
+
+  <!-- placeholder for menu -->
+  <div id="menuContainer"></div>
+
+  <!-- load menu with AJAX -->
+  <script>
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'menu3.html', true);
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+        document.getElementById('menuContainer').innerHTML = xhr.responseText;
+      }
+    };
+    xhr.send();
+  </script>
+
+<!--  menu tu koniec -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<center><font size="6" color="lime">
+
+
+<br><div class="panel10"><p>
+.       Radyjko 6       .</p></div>
+<br>
+<br>
+<img src="images/bumbox1.png" width="300">
+<br>
+<br>
+<br>
+
+
+<script src="floplayer.js"></script>
+<script id="radioFloPlayer">
+radioFloPlayer.embed({
+'url': 'https://stream.zeno.fm/paenimadjwzvv',
+'station-name': 'Radyjko6',
+'autoplay': true,
+'skin': 'windows-dark',
+'width': 300
+});
+</script>
+<br>
+<br>
+<!-- <audio controls autoplay>
+<source src="https://stream-66.zeno.fm/paenimadjwzvv?zs=jMtK92lbSVyNI11lBVgggg" type="audio/mpeg"></source>
+</audio> -->
+
+<br>
+   <div class="panel11"><p>
+<br>
+<br>
+słuchaj w winampie
+<br>
+albo w swoim odtwarzaczu
+<br>
+<br><a href="https://stream.zeno.fm/paenimadjwzvv"><img src="images/winamp.png" width="150" height="150">
+<br><font color="white">https://stream.zeno.fm/paenimadjwzvv</font></a>
+<br>
+<br>
+      </p></div>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+  
+
+
+
+<img src="images/szlaczek.png">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<img src="images/dog-sluchawki1.jpg" width="60%">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><div class="panel10"><p>
+.       Radyjko 6     .</p></div>
+<br>
+<br>
+<br>
+<br>
+</font>
+</center>
+
+
+  
+
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+﻿<!DOCTYPE HTML>
+
+<html lang="pl">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Disco Radio</title>
+<meta name="description" content="Disco Radio" />
+<meta name="keywords" content="radio muzyka dance disco polo" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="images/giphy.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="style1.css" rel="stylesheet" type="text/css"/>
+
+
+</head>
+
+
+
+
+
+
+<body>
+
+<img src="images/mixer.jpg" style="position:fixed; left:0; right:0; top:0; bottom:0; width:100vw; height:100vh; z-index:-1;">
+<center>
+
+
+  <!-- placeholder for menu -->
+  <div id="menuContainer"></div>
+
+  <!-- load menu with AJAX -->
+  <script>
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'menu.html', true);
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+        document.getElementById('menuContainer').innerHTML = xhr.responseText;
+      }
+    };
+    xhr.send();
+  </script>
+
+<!--  menu tu koniec -->
+
+
+
+
+
+
+
+<br>
+<br>
+<div class="panel12">
+
+<center><font size="5" color="red">
+
+
+<div class="panel10">
+<p>Disco Radio</p></div>
+<br>
+<br>
+<div class="panel11"><p>
+<br>
+<br>
+<img src="images/disco-logo.jpg" width="270">
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<audio controls autoplay>
+
+<source src="https://n20a-eu.rcs.revma.com/cvswvmyewzzuv" type="audio/mpeg"></source>
+</audio>
+
+
+<br>
+<br>
+<br>
+<center>
+
+
+słuchaj w swoim odtwarzaczu skopiuj link
+
+<br>
+
+<br><a href="https://n20a-eu.rcs.revma.com/cvswvmyewzzuv"><img src="images/winamp.png" width="150" height="150">
+
+<br><font color="white">
+https://n20a-eu.rcs.revma.com/cvswvmyewzzuv</font></a>
+<br>
+<br>
+<br>
+<br>
+
+
+<img src="images/szlaczek.png">
+<br>
+<br>
+<br>
+
+<img src="images/konsoleta.jpg" width="90%">
+<br>
+<br>
+</p></div>
+<br>
+<br>
+<div class="panel10">
+<p>Disco Radio</p></div>
+<br>
+<br>
+<br>
+<br>
+</font>
+</center>
+
+
+
+
+
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+  
+</body>
+</html>

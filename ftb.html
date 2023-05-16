@@ -1,0 +1,172 @@
+﻿<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Radio FTB</title>
+<meta name="description" content="Radio FTB" />
+<meta name="keywords" content="radio muzyka dance disco polo" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="images/giphy.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="style1.css" rel="stylesheet" type="text/css"/>
+
+
+</head>
+
+
+
+
+<body>
+
+<img src="images/pexels.jpg" style="position:fixed; left:0; right:0; top:0; bottom:0; width:100vw; height:100vh; z-index:-1;">
+<center>
+
+
+  <!-- placeholder for menu -->
+  <div id="menuContainer"></div>
+
+  <!-- load menu with AJAX -->
+  <script>
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'menu3.html', true);
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+        document.getElementById('menuContainer').innerHTML = xhr.responseText;
+      }
+    };
+    xhr.send();
+  </script>
+
+<!--  menu tu koniec -->
+
+
+
+
+
+
+
+
+
+
+<div class="panel12">
+
+
+
+<center><font size="5" color="yellow">
+
+<br><div class="panel10"><p>
+Radio FTB - kanał disco polo</p></div>
+
+<br>
+<br>
+<img src="images/logo-ftb.png" width="270">
+<br>
+<br>
+<br>
+
+
+<br>
+<br>
+<audio controls autoplay="autoplay">
+<source src="https://play.radioftb.net:2020/stream/DiscoPolo/;stream.mp3" type="audio/mpeg"></source>
+</audio>
+
+<br>
+<br>
+    <div class="panel11"><p>
+<br>
+      <br>
+słuchaj w winampie
+<br>
+albo w swoim odtwarzaczu
+<br>
+<br><a href="https://radioftb.net/disco.m3u"><img src="images/winamp.png" width="150" height="150">
+<br><font color="white">
+https://radioftb.net/disco.m3u</font></a>
+<br>
+<br>
+link bezpośredni do transmisji
+<br>
+<br>
+<a href="https://play.radioftb.net:2020/stream/DiscoPolo"><font color="white">https://play.radioftb.net:2020/stream/DiscoPolo</font></a>
+<br>
+<br>
+      </p></div>
+  <br>
+  <br>
+
+
+
+
+
+
+<img src="images/szlaczek.png">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+<br><div class="panel10"><p>
+Radio FTB - kanał Club</p></div>
+<br>
+<br>
+
+
+<audio controls>
+<source src="https://play.radioftb.net:2020/stream/klubowy/;stream.mp3" type="audio/mpeg"></source>
+</audio>
+
+<br>
+<br>
+    <div class="panel11"><p>
+<br>
+      <br>
+słuchaj w winampie
+<br>
+albo w swoim odtwarzaczu
+<br>
+<br><a href="https://radioftb.net/radio_ftb.m3u"><img src="images/winamp.png" width="150" height="150">
+<br><font color="white">
+https://radioftb.net/radio_ftb.m3u</font></a>
+<br>
+<br>
+link bezpośredni do transmisji
+<br>
+<br>
+<a href="https://play.radioftb.net:2020/stream/klubowy"><font color="white">https://play.radioftb.net:2020/stream/klubowy</font></a>
+<br>
+<br>
+      </p></div>
+<br>
+<br>
+
+<img src="images/pies-hilary.jpg" width="70%"></a>
+<br>
+<br>
+<br><div class="panel10"><p>
+Radio FTB</p></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</font>
+</center>
+
+
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,200 @@
+﻿﻿<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+
+<style>
+.navbar {
+  overflow: hidden;
+  margin-top: -1em;
+  background-color: #333; 
+  width: 97%;
+  border-radius: 12px;
+  border: 2px solid brown;
+  padding: 4px;
+          display: flex;
+          flex-wrap: wrap;
+  }
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 9px 8px;
+  text-decoration: none;
+  border: 3px solid blue;
+  border-radius: 12px;
+  background-color: green;
+  margin: 2px 2px;
+       flex: 1 0 auto;
+}
+
+
+.subnav {
+  overflow: hidden;
+  float: left;
+      
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  color: white;
+  padding: 9px 7px;
+  background-color: green;
+  border: 3px solid blue;
+  border-radius: 12px;
+  font-family: inherit;
+  margin: 2px 2px;
+}
+
+
+  .navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+  border-radius: 12px;
+}
+
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: olive;
+  width: 95%;
+  z-index: 1;
+  border-radius: 10px;
+  text-align: center;
+    margin: 0px 25px;
+}  
+  
+  
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  background-color: red;
+}
+
+.subnav-content a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+
+.navbar a.active {
+  background-color: #ffcc00;
+  color: black;
+  border-radius: 12px;
+}
+
+</style>
+
+</head>
+<body>
+
+
+
+
+
+
+
+
+<div class="navbar">
+  <a href="index.html" class="active">HOME</a>
+  <a href="index.html">POLMAX</a>
+  <a href="polmax2.html">Polmax2</a>
+  <a href="polmax3.html">Polmax3</a>
+  <a href="misiek.html">Misiek</a>
+  <a href="aniolek.html">Aniołek</a>
+  <a href="zabawa.html">Zabawa</a>
+  <a href="polmax4.html">Polmax4</a>
+  <a href="polmax5.html">Polmax5</a>
+
+
+  <div class="subnav">
+    <button class="subnavbtn">Stacje</button>
+      <div class="subnav-content">
+      <a href="polmax3.html">Polmax3</a>
+      <a href="polmax4.html">Polmax4</a>
+      <a href="polmax5.html">Polmax5</a>
+      <a href="radyjko6.html">Radyjko6</a>
+      <a href="polmax-koledy.html">Polmax Kolędy</a>      
+      <a href="ftb.html">FTB</a>
+      <a href="discoparty.html">Discoparty</a>
+      <a href="discoradio.html">Disco Radio</a>
+      <a href="voxfm.html">VOX FM</a>
+      <a href="technobase.html">Technobase</a>
+      <a href="https://radioparty.pl" target="_blank">Radio Party</a>
+      <a href="slaskie.html">Śląskie Radio</a>
+      <a href="http://radioslask.pl/webplayer" target="_blank">Radio Śląsk</a>
+      <a href="radiopolo.html">Radio Polo .net</a>
+      <a href="raute.html">Raute Musik FM</a>
+      <a href="folk.html">Folk Radio</a>
+      <a href="https://radioheaven.pl/" target="_blank">Radio Heaven</a>
+      <a href="http://radioryn.freeoda.com" target="_blank" target="_blank">Radio Ryn</a>
+      <a href="http://proxima.shoutca.st:9045/stream" target="_blank">Radio Alex Zakopane</a>
+      <a href="https://radioalex.com.pl/play/index.php?02" target="_blank">Nowe Radio Alex</a>
+      <a href="https://stream12.hosterion.pl/public/discopolo" target="_blank">Discostrefafm - Disco polo</a>
+      <a href="https://stream12.hosterion.pl/public/club" target="_blank">Discostrefafm - Club</a>
+      <a href="http://discopolononstop.pl.nadaje.pro" target="_blank">Disco polo non stop FM</a>
+      <a href="http://radio-lenka.de" target="_blank">Radio Lenka</a>
+      <a href="http://www.radiohit.net.pl/radio/" target="_blank">HIT Włocławek</a>
+      <a href="https://zeno.fm/radio/Masterfm/" target="_blank">Master FM [18+]</a>
+      <a href="https://zeno.fm/radio/radio-for-everyone" target="_blank">Nauka Angielskiego</a>    
+</div>
+  </div> 
+
+
+
+  <div class="subnav">
+    <button class="subnavbtn">Services</button>
+    <div class="subnav-content">
+      <a href="lista-radiowa.m3u" download>Lista Radiowa .m3u</a>
+      <a href="webplayer1.html">WebPlayer Stacje</a>
+      <a href="http://polmax.ga/wimpy/stacje-radiowe.html">Stacje Radiowe</a>
+      <a href="Radio_Polmax_FM.apk" title="Aplikacja Radio Polmax FM na Android" download>Aplikacja Polmax [Android]</a>
+      <a href="https://www.google.pl">Google</a>
+    </div>
+  </div> 
+
+  <div class="subnav">
+    <button class="subnavbtn">P</button>
+    <div class="subnav-content">
+      <a href="http://polmaxfm.ga/webplayer1.html" rel="noopener">WebPlayer stacji radiowych</a>
+      <a href="#link3">Link 3</a>
+      <a href="#link4">Link 4</a>
+    </div>
+  </div>
+
+<div class="subnav">
+    <button class="subnavbtn">m</button>
+    <div class="subnav-content">
+      <a href="http://polmaxfm.ga/webplayer1.html">Webplayer</a>
+      <a href="test2.html">test</a>
+      <a href="#link3">Link 3</a>
+      <a href="#link4">Link 4</a>
+      <a href="#link4">Link 4</a>
+      <a href="#link4">Link 4</a>
+      <a href="#link1">test1</a>
+      <a href="#link2">Link 2</a>
+      <a href="#link3">Link 3</a>
+      <a href="#link4">Link 4</a>
+      <a href="#link4">Link 4</a>
+      <a href="#link4">Link 4</a>
+    </div>
+  </div>
+
+  <a href="webplayer1.html" title="Odtwarzacz Web Player stacji Radiowych">W</a>
+</div>
+
+
+
+</body>
+</html>

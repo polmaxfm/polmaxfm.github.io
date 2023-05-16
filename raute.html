@@ -1,0 +1,79 @@
+﻿<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Radio RauteMusik.FM</title>
+<meta name="description" content="Radio RauteMusik.FM" />
+<meta name="keywords" content="radio muzyka dance techno schlagier" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="images/giphy.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="style1.css" rel="stylesheet" type="text/css"/>
+
+
+</head>
+<body>
+
+<img src="images/mixer.jpg" style="position:fixed; left:0; right:0; top:0; bottom:0; width:100vw; height:100vh; z-index:-1;">
+<center>
+
+
+  <!-- placeholder for menu -->
+  <div id="menuContainer"></div>
+
+  <!-- load menu with AJAX -->
+  <script>
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'menu.html', true);
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+        document.getElementById('menuContainer').innerHTML = xhr.responseText;
+      }
+    };
+    xhr.send();
+  </script>
+
+<!--  menu tu koniec -->
+
+
+
+
+
+
+
+
+
+
+<div class="panel12">
+
+
+<center><font size="5" color="lime">
+
+
+<br><div class="panel10"><p>
+Radio RauteMusik.FM Club - Niemcy</p></div>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+ <iframe src="https://www.rm.fm/club" scrolling="yes" border="0" marginwidth="0" marginheight="0" frameborder="no" width="1000" height="2000"></iframe>
+
+
+
+
+
+
+</font>
+</center>
+
+
+</div>
+</body>
+</html>

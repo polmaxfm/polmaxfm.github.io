@@ -1,1 +1,179 @@
-﻿<!DOCTYPE html> <html> <head> <style> /* styl dla tekstu z obwódką */ .tekst-obwodka { border: 2px solid blue; padding: 10px; } </style> </head> <body> <h1 class="tekst-obwodka">Tytuł z niebieską obwódką</h1> <p class="tekst-obwodka">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut nulla euismod, facilisis massa eu, vestibulum augue. Quisque non massa non purus sagittis tincidunt vel quis lorem.</p> </body> </html>
+﻿<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+<link rel="canonical" href="https://polmaxfm.ga/index.html"/>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Radio Polmax FM , na dobrej fali , zawsze w rytmie</title>
+<meta name="description" content="Radio Polmax FM , na dobrej fali , zawsze w rytmie , miłe dla ucha , posłuchaj" />
+<meta name="keywords" content="radio muzyka stacja dj polmax fm" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<META NAME="ROBOTS" CONTENT="all">
+
+<link href="images/giphy.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="style1.css" rel="stylesheet" type="text/css"/>
+
+
+</head>
+
+
+
+
+
+
+<body>
+
+
+<img src="images/tlo4.jpg" style="position:fixed; left:0; right:0; top:0; bottom:0; width:100vw; height:100vh; z-index:-1;">
+<center>
+
+
+  <!-- placeholder for menu -->
+  <div id="menuContainer"></div>
+
+  <!-- load menu with AJAX -->
+  <script>
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'menu.html', true);
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+        document.getElementById('menuContainer').innerHTML = xhr.responseText;
+      }
+    };
+    xhr.send();
+  </script>
+
+<!--  menu tu koniec -->
+
+
+
+
+
+
+
+
+
+
+<div class="panel12">
+
+<center>
+<br>
+<br>
+
+
+<img src="images/giphy.gif" width="260">
+<br>
+<br>
+
+<img src="images/pol.gif" width="60%">
+<br>
+<br>
+
+<iframe src="https://zeno.fm/player/polmax-fm" width="400" height="280" frameborder="0" scrolling="no"></iframe><br>
+<br>
+<br>
+<font color="red"><script src="floplayer.js"></script>
+<script id="radioFloPlayer">
+radioFloPlayer.embed({
+'url': 'https://stream.zeno.fm/1gg3kbnzbceuv',
+'station-name': 'Radio Polmax FM',
+'autoplay': true,
+'skin': 'windows-dark',
+'width': 300
+});
+</script><font/>
+
+
+<!-- <audio controls autoplay>
+<source src="https://stream.zeno.fm/1gg3kbnzbceuv" type="audio/mpeg"></source>
+</audio> -->
+<br>
+<br>
+<br>
+
+
+<font size="5" color="yellow">
+<br><div class="panel11"><p>
+
+
+słuchaj w winampie
+<br>
+albo w swoim odtwarzaczu
+<br>
+<br><a href="http://polmaxfm.ga/polmax.m3u"><img src="images/winamp.png" width="150" height="150">
+<br><font color="lime">http://polmaxfm.ga/polmax.m3u</font></a>
+<br>
+<br>
+
+Linki bezpośrednie do słuchania <br>
+<a href="http://stream.zeno.fm/1gg3kbnzbceuv"><font color="white">http://stream.zeno.fm/1gg3kbnzbceuv</font></a>
+  
+<br>
+<br> 
+<a href="http://stream.zeno.fm/27ufqar63d0uv"><font color="white">http://stream.zeno.fm/27ufqar63d0uv</font></a>
+<br>Drugi link
+<br>
+<br>
+</p></div>
+<br>
+<br>
+
+
+
+
+<img src="images/64.gif">
+<br>
+<br>
+
+
+
+
+<!--
+<iframe src="https://polmax.panelradiowy.pl/embed.php?script=grafik" scrolling="auto" border="0" marginwidth="0" marginheight="0" frameborder="no" width="995" height="600"></iframe>
+-->
+
+
+<br>
+<br>
+
+
+
+
+
+<img src="images/djpies2.jpg" width="60%">
+<br>
+<br>
+
+<img src="images/djpies.jpg" width="60%">
+<br>
+<br>
+<br>
+<p>
+Napisz do Radia na czacie <br>
+wiadomość albo pozdrowienia
+<br>
+<br>
+<script type="text/javascript" src="https://www.shoutboxy.pl/shoutbox/start.php?key=706857776"></script>
+</p><br>
+<br>
+<br>
+<br>
+<br>
+
+<br><div class="panel10"><p>
+Radio Polmax FM</p></div>
+<br>
+<br>
+<br>
+  <a href="menu.html"><font color="brown">m</font></a>
+</br>
+</font>
+</center>
+
+
+
+
+
+</div>
+</body>
+</html>

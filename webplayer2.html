@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kanały Polmax FM</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+div.panel12{
+        background-image: url("images/pexels.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position:fixed; left:0; right:0; top:0; bottom:0;
+        background-size: cover;
+        overflow: auto;
+        width:100vw;
+        height:100vh;
+      }
+
+
+div.sticky {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #400017;
+  padding: 8px;
+  border-top: 2px solid violet;
+  border-bottom: 2px solid violet;
+}
+
+  button {
+  background-color: brown;
+  width: 70%;
+font-size: 34px;
+color: yellow;
+margin: 2px;
+}
+
+
+</style>
+
+<link href="style1.css" rel="stylesheet" type="text/css"/>
+
+</head>
+
+
+
+
+
+
+
+
+
+<body>
+<div class="panel12">
+
+<center>
+
+
+<font size="4" color="lime">
+  <h1>Kanały radiowe
+<br>Polmax FM</h1>
+ 
+<br>
+<br>
+
+
+
+
+
+
+
+<!-- Przyciski dla poszczególnych stacji radiowych -->
+<button onclick="playRadio('https://stream-51.zeno.fm/1gg3kbnzbceuv?zs=eJmnhthGT92UF-J1zbToFA')">Polmax FM </button>
+<br>
+<button onclick="playRadio('https://stream-60.zeno.fm/szxcunxzbceuv?zs=0PAj0cr4SCa0HemSAVgMJg')">Polmax2 </button>
+<br>
+<button onclick="playRadio('https://stream-61.zeno.fm/2p4yw9sd8yzuv?zs=W-BRd4ILRU6zFl4ptv9NIQ')">Polmax3 </button>
+<br>
+<button onclick="playRadio('https://stream-58.zeno.fm/vvzbho31ocptv?zs=FOzBlCyfS7ONjFTXzatRSQ')">Polmax4 </button>
+<br>
+<button onclick="playRadio('https://stream-67.zeno.fm/9921m8gf8yzuv?zs=hy_0mbktSauRSgdpc9LJBA')">Polmax5 </button>
+<br>
+<button onclick="playRadio('https://stream-56.zeno.fm/5hfdntgf8yzuv?zs=Ie2t3qfcTkiK_kNjV-BSvA')">Misiek </button>
+<br>
+<button onclick="playRadio('https://stream-63.zeno.fm/nvz73r6m7yzuv?zs=-fzPXj91TAyXxcqyZ-0rLw')">Aniołek </button>
+<br>
+<button onclick="playRadio('https://stream-38.zeno.fm/xwvpgfvk7yzuv?zs=lDs54QG8RZa1P194J6E2aw')">Zabawa</button>
+<br>
+<button onclick="playRadio('https://stream-51.zeno.fm/paenimadjwzvv?zs=uo6qXIPlToy8PLPq4sXBRQ')">Radyjko6</button>
+<br>
+<button onclick="playRadio('https://stream-58.zeno.fm/buc6f68mmm0uv?zs=o4jAwQ-STd2GBNoOWMlcjw')">Radyjko Zima</button>
+<br>
+
+
+<br>
+<br>
+
+<div class="sticky">
+<center>
+<!-- Odtwarzacz audio -->
+<audio id="radioPlayer" controls></audio>
+
+<script>
+  function playRadio(url) {
+    var player = document.getElementById('radioPlayer');
+    player.pause(); // Zatrzymuje aktualnie odtwarzane radio, jeśli takie istnieje
+    player.src = url;
+    player.load(); // Ładuje nowy URL radia
+    player.play(); // Rozpoczyna odtwarzanie radia
+  }
+</script>
+</div>
+</center>
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+</div>
+</font>
+</center>
+</body>
+</html>
