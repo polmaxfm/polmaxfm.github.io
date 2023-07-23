@@ -58,7 +58,7 @@ http://proxima.shoutca.st:9045/stream
 #EXTINF:-1,Radio Alex Nowe
 https://stream0.radio90.pl:8001/alex
 #EXTINF:-1,Technobase FM
-https://listen.technobase.fm/tunein-aac-hd
+http://listen.technobase.fm/tunein-aac-hd
 #EXTINF:-1,Raute Musik Club
 http://club-high.rautemusik.fm
 #EXTINF:-1,Raute Musik
