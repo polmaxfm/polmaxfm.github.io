@@ -93,6 +93,8 @@ http://s1.radiohost.pl:8126
 http://s3.slotex.pl/shoutcast/7770/stream?sid=1
 #EXTINF:-1,Silesia.de
 http://s1.slotex.pl:7350
+#EXTINF:-1,Best Radio - śląskie
+https://s3.slotex.pl:7136/stream
 #EXTINF:-1,RADIO SILESIA 96.2 FM (Radio Silesia 96.2 FM)
 http://s1.slotex.pl:7926
 #EXTINF:-1,Radio Sympatyk
