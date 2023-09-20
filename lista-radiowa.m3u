@@ -43,6 +43,8 @@ http://213.25.67.15/radio.php?url=https://www.eskago.pl/radio/vox-fm
 https://stream.zeno.fm/f83dizsogzbvv
 #EXTINF:-1,Discoradio DAB +
 http://stream.rcs.revma.com/cvswvmyewzzuv
+#EXTINF:-1,Radio Fest
+https://sluchaj2.radiopark.biz.pl:8443/fest
 #EXTINF:-1,Radio EXPRESS FM DAB +
 http://stream.rcs.revma.com/yx6cub73kwzuv
 #EXTINF:-1,Mega Radio DAB +
