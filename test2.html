@@ -59,46 +59,6 @@ Polmax 3</b></p></div>
 
 
 
-<div id = "rj-player" > <div class = "player-v3 player-medium" > <div id = "rj-cover" > <a href = "#" > <img src = "" />< /a> </div> <div class = "info" > <div class = "rjp-trackinfo-container" > <h4 class = "rjp-label" > Teraz odtwarzane: </h4> <p id = "trackInfo " class = "rjp-info" </p> </div> <div class = "rjp-player-container" > <div id = "rjp-radiojar-player" </div> <div id = " rj-player-controls" class = "rj-player-controls" > <div class = "jp-gui jp-interface" > <div class = "jp-controls" > <a href = "javascript:;" style = " display : block " class = "jp-play" title = "Odtwórz" >   <i class = "icon-play" ></i></a> <a href = "javascript:;" style = " display : none " class = "jp-pause" title = "Pauza" ><i class = "icon-pause" ></i></a> <a href = "javascript:;" styl = " wyświetlanie : 
-  
-   
-      
-  
-   
-    
-     
-      
-   
-    
-     
-      
-      
-       
-            
-            
-             
-            „icon-volume-off” ></i></a> <div class = „jp-volume-bar-wrapper” > <div class = „jp-volume-bar” > <div class = „jp-volume-bar” -bar-value" </div> </div> </div> </div> </div> </div> <div class = "jp-no-solution" > <span> Wymagana aktualizacja </span > 
-     Aby odtwarzać multimedia, musisz albo zaktualizować przeglądarkę do najnowszej wersji, albo zaktualizować <a href = "//get.adobe.com/flashplayer/" target = "_blank" > wtyczkę Flash </a> .
-    </div> </div> </div> </div> </div>
-
-
-<script type = "text/javascript" src = "//www.radiojar.com/wrappers/api-plugins/v1/radiojar-min.js" ></script> <script> 
- rjq ( '#rjp-radiojar- gracz' ). radiojar ( 'player' , { "streamName" : "https://stream.zeno.fm/1gg3kbnzbceuv" , "enableUpdates" : true , "defaultImage" : "//www.radiojar.com/img/sample_images/Radio_Stations_Avatar_BLUE.png" , "autoodtwarzanie" : true }) ; 
- rjq ( „#rjp-radiojar-player” ). off ( „zdarzenie-ładowania ścieżki rj” ); 
- rjq ( „#rjp-radiojar-player” ). on ( 'rj-track-load-event' , funkcja ( zdarzenie , dane ) { 
-   updateInfo ( dane ); if ( dane . tytuł != "" || dane . artysta != "" ) { 
-     rjq ( '.rjp- trackinfo-container' ). show (); 
-     rjq ( '#trackInfo' ).html ( dane . artysta + ' - "' + dane . tytuł + '"' ) } else { 
-     rjq ( '.rjp-trackinfo-container' ). ukrywać (); } });  
- 
-   
-   
-
- funkcja updateInfo ( dane ) { if ( dane . kciuk ) { 
-     rjq ( '#rj-cover' ). html ( '<a href="#"><img src="' + dane . kciuk + '" alt="" title="" /></a>' ) } else { 
-     rjq ( '#rj-cover ' ). html ( '' ) } } </script> 
-    
-
 
 
 
@@ -107,9 +67,9 @@ Polmax 3</b></p></div>
   
 <br>
 <br>
-<!-- <audio controls autoplay>
+<audio controls autoplay>
 <source src="https://stream.zeno.fm/2p4yw9sd8yzuv" type="audio/mpeg"></source>
-</audio> -->
+</audio>
 
 <br>
 <br>
