@@ -55,16 +55,36 @@ Polmax 3</b></p></div>
 <br>
 
 
-<script src="floplayer.js"></script>
-<script id="radioFloPlayer">
-radioFloPlayer.embed({
-'url': 'https://stream-66.zeno.fm/2p4yw9sd8yzuv?zs=W-BRd4ILRU6zFl4ptv9NIQ',
-'station-name': 'Polmax 3',
-'autoplay': true,
-'skin': 'windows-dark',
-'width': 300
-});
-</script>
+
+
+
+
+
+
+
+<script type = "text/javascript" src = "//www.radiojar.com/wrappers/api-plugins/v1/radiojar-min.js" ></script> <script> 
+ rjq ( '#rjp-radiojar- gracz' ). radiojar ( 'player' , { "streamName" : "https://stream.zeno.fm/1gg3kbnzbceuv" , "enableUpdates" : true , "defaultImage" : "//www.radiojar.com/img/sample_images/Radio_Stations_Avatar_BLUE.png" , "autoodtwarzanie" : true }) ; 
+ rjq ( „#rjp-radiojar-player” ). off ( „zdarzenie-ładowania ścieżki rj” ); 
+ rjq ( „#rjp-radiojar-player” ). on ( 'rj-track-load-event' , funkcja ( zdarzenie , dane ) { 
+   updateInfo ( dane ); if ( dane . tytuł != "" || dane . artysta != "" ) { 
+     rjq ( '.rjp- trackinfo-container' ). show (); 
+     rjq ( '#trackInfo' ).html ( dane . artysta + ' - "' + dane . tytuł + '"' ) } else { 
+     rjq ( '.rjp-trackinfo-container' ). ukrywać (); } });  
+ 
+   
+   
+
+ funkcja updateInfo ( dane ) { if ( dane . kciuk ) { 
+     rjq ( '#rj-cover' ). html ( '<a href="#"><img src="' + dane . kciuk + '" alt="" title="" /></a>' ) } else { 
+     rjq ( '#rj-cover ' ). html ( '' ) } } </script> 
+    
+
+
+
+
+
+
+  
 <br>
 <br>
 <!-- <audio controls autoplay>
