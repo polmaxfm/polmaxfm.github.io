@@ -99,7 +99,8 @@ http://s1.slotex.pl:7926
 #EXTINF:-1,Radio Sympatyk
 http://radio.admin-marcin.pl:8020
 
-
+#EXTINF:-1,Radio Max
+https://radio.radiomax.pl:8000/radio.mp3
 #EXTINF:-1,DiscoParty.pl - Kanal Disco
 http://s1.discoparty.pl:7432
 #EXTINF:-1,Portal Disco Polo - MediaDisco.pl
