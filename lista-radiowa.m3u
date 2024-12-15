@@ -83,7 +83,7 @@ http://stream10.hosterion.pl:8066/stream
 #EXTINF:-1,Radio Śląsk
 http://s1.slotex.pl:7022/
 #EXTINF:-1,RADIO BERCIK SILESIA
-http://s3.slotex.pl/shoutcast/7770/stream?sid=1
+https://s3.slotex.pl:7770/stream/1/?sid=1
 #EXTINF:-1,Slonsky Radio
 http://stream.slonskyradio.eu
 #EXTINF:-1,Śląskie Radio Hit Mix
